@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    /* PRD Color Palette */
+    /* Color Palette based on the provided image */
     --background: 217 100% 50%; /* Page background: #007BFF */
     --foreground: 0 0% 0%; /* Primary text color for components: #000000 */
 
@@ -21,7 +21,7 @@
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
-    --muted-foreground: 0 0% 20%; /* Secondary text: #333333 */
+    --muted-foreground: 0 0% 40%; /* Muted text for labels etc: a darker gray */
 
     --accent: 217 100% 50%; /* Accent for links: #007BFF */
     --accent-foreground: 0 0% 0%; /* Text on accent color */
@@ -36,7 +36,7 @@
     --radius: 0.5rem; /* Base radius, corresponds to rounded-lg */
   }
 
-  /* Dark mode is not specified in the PRD */
+  /* Dark mode is not specified */
 }
 
 @layer base {
