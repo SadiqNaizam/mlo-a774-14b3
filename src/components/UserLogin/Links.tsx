@@ -6,7 +6,7 @@ export const ForgotPasswordLink: React.FC<{ className?: string }> = ({ className
     <a
       href="#"
       className={cn(
-        'text-sm text-muted-foreground hover:text-primary transition-colors',
+        'text-sm text-primary hover:underline transition-colors',
         className
       )}
     >
